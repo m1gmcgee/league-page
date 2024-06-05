@@ -1,9 +1,21 @@
 /*   STEP 1   */
-export const leagueID = "your_league_id"; // your league ID
-export const leagueName = "your_league_name"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
-export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
+export const leagues = [
+  {
+    id: "1093655654515970048",
+    name: "Dynasty Ultimate",
+    dues: 100,
+    dynasty: true
+  },
+  {
+    id: "1102053401879203840",
+    name: "Dynasty Apex",
+    dues: 100,
+    dynasty: true
+  }
+];
+
+export const enableBlog = false;
+
 
 /*   STEP 2   */
 export const homepageText = `
